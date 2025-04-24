@@ -1,7 +1,7 @@
-/* Reset et variables */
 :root {
-    --primary-color: #4CAF50;
-    --secondary-color: #F4A259;
+    --primary-color: #4CAF50;        
+    --secondary-color: #ec962d;      
+    --tertiary-color: #3a86ff;      
     --dark-color: #333;
     --light-color: #f4f4f4;
     --white: #fff;
@@ -14,7 +14,6 @@
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --box-shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -153,7 +152,6 @@ img {
 }
 
 .logo img {
-    height: 60px;
     transition: var(--transition);
 }
 
@@ -234,7 +232,7 @@ img {
 
 /* Hero */
 .hero {
-    height: 100vh;
+    height: 80vh;
     min-height: 700px;
     display: flex;
     align-items: center;
