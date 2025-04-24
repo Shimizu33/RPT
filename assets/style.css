@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #4CAF50;        
+    --primary-color: #4caf96;        
     --secondary-color: #ec962d;      
     --tertiary-color: #3a86ff;      
     --dark-color: #333;
@@ -79,7 +79,7 @@ img {
 }
 
 .btn-primary:hover {
-    background-color: #3e8e41;
+    background-color: #3c8d79;
     transform: translateY(-3px);
     box-shadow: var(--box-shadow-hover);
 }
@@ -126,7 +126,6 @@ img {
     font-size: 1.1rem;
 }
 
-/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -230,15 +229,13 @@ img {
     transition: var(--transition);
 }
 
-/* Hero */
 .hero {
     height: 80vh;
     min-height: 700px;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, var(--gray), var(--light-gray)), 
-                linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('..assets/images/1.png') no-repeat center center/cover;
+    background: linear-gradient(135deg, var(--gray), var(--dark-color)), 
+                linear-gradient(rgba(0, 0, 0, 0.5), rgba(15, 13, 19, 0.5));
     color: var(--white);
     text-align: center;
     padding-top: 80px;
@@ -423,7 +420,6 @@ img {
     transform: scale(1.1);
 }
 
-/* Contact */
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -520,7 +516,6 @@ img {
     min-height: 150px;
 }
 
-/* Footer */
 .footer {
     background-color: var(--dark-color);
     color: var(--white);
@@ -586,7 +581,6 @@ img {
     margin-bottom: 0.5rem;
 }
 
-/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -618,7 +612,6 @@ img {
     }
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .about .container,
     .contact-grid {
