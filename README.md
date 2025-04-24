@@ -1,6 +1,5 @@
 # Site web - Refuge Perruches Triolet
 
-![Prévisualisation du site](assets/images/)
 
 Site web statique moderne pour l'association Refuge Perruches Triolet, dédiée à la protection des oiseaux à becs crochus.
 
