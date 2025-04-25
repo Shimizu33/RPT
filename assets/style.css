@@ -303,9 +303,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(76, 175, 80, 0.1);
+    background-color: #4caf961f;
     border-radius: 50%;
-    color: var(--primary-color);
+    color: var(--dark-color);
     font-size: 2rem;
 }
 
@@ -616,6 +616,7 @@ img {
 }
 
 @media (max-width: 992px) {
+    
     .about .container,
     .contact-grid {
         grid-template-columns: 1fr;
@@ -627,6 +628,11 @@ img {
 }
 
 @media (max-width: 768px) {
+
+    .logo {
+        width: 40px;
+    }
+
     .menu-toggle {
         display: block;
     }
@@ -648,7 +654,7 @@ img {
     .navbar.active {
         right: 0;
     }
-    
+
     .navbar ul {
         flex-direction: column;
     }
@@ -659,7 +665,6 @@ img {
     
     .social-header {
         margin-left: 0;
-        margin-top: 2rem;
         justify-content: center;
     }
     
@@ -697,4 +702,11 @@ img {
     .btn {
         padding: 0.6rem 1.5rem;
     }
+
+    .hero-buttons .btn {
+        width: 90%;
+        max-width: 200px; 
+        margin: 0 auto; 
+    }
+
 }
