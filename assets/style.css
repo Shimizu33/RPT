@@ -539,6 +539,7 @@ img {
 }
 
 .footer-col p {
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     opacity: 0.8;
 }
