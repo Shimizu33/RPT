@@ -230,31 +230,33 @@
                         </div>
                     </div>
                     <div class="contact-form">
-                        <form action="#" method="post">
-                            <div class="form-group">
-                                <label for="name">Nom</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Sujet</label>
-                                <select id="subject" name="subject">
-                                    <option value="question">Question / Conseil</option>
-                                    <option value="don">Don</option>
-                                    <option value="adoption">Adoption</option>
-                                    <option value="signalement">Signalement d'oiseau</option>  
-                                    <option value="partenariat">Proposition de partenariat</option>
-                                    <option value="autre">Autre</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" rows="5" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="apikey" value="cf2887ee-96ac-4ee2-a860-457b40686e48" />
+                        <input type="hidden" name="redirect" value="https://refugeperruchestriolet.live" />
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <select id="subject" name="subject">
+                            <option value="question">Question / Conseil</option>
+                            <option value="don">Don</option>
+                            <option value="adoption">Adoption</option>
+                            <option value="signalement">Signalement d’oiseau</option>  
+                            <option value="partenariat">Proposition de partenariat</option>
+                            <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
                         </form>
                     </div>
                 </div>
