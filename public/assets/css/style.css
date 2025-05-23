@@ -275,7 +275,6 @@ img {
     z-index: 1;
 }
 
-/* Ajouter un overlay sombre pour améliorer la lisibilité du texte */
 .hero::after {
     content: '';
     position: absolute;
